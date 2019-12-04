@@ -1,13 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Chill from './Chill'
+import Drill from './Drill';
 
 const App = ()=> {
    
   return (
-    <Chill/>
-    
+    <React.Fragment>
+     <Drill/>
+    <Chill/> 
+    </React.Fragment>
   );
 }
 
